@@ -1,0 +1,17 @@
+{
+  "name": "monthly-report",
+  "owner": {
+    "name": "lizhenmiao"
+  },
+  "metadata": {
+    "description": "月度绩效生成工具"
+  },
+  "plugins": [
+    {
+      "name": "monthly-report",
+      "source": "./",
+      "description": "根据 git 提交记录生成月度绩效：按你自己的模板排版，自动归并功能点、拆分分值，也能先写下月计划再对照实际。",
+      "version": "0.1.0"
+    }
+  ]
+}
